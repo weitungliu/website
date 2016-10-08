@@ -1,0 +1,45 @@
+/* SlidesJS 3.0 CSS  http://slidesjs.com/
+   Modified by Kevin Frew (https://github.com/kfrew/clean-responsive)*/
+#slides #slidesjs-navigation-contatiner {
+  display: -webkit-flex;
+  display: flex;
+  float: right;
+}
+
+#slides .slidesjs-navigation {
+  margin-top:3px;
+}
+
+#slides .slidesjs-arrow {
+  font-family: roboto;
+  font-weight: 800;
+  line-height: 7px;
+  font-size: 25px;
+}
+
+.slidesjs-pagination {
+  margin: 0;
+  padding: 0 5px 0 5px;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 2px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover {
+  background-position: 0 -13px
+}
